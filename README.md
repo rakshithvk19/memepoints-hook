@@ -17,7 +17,7 @@ Points are ERC-721 tokens given to the users. Using solmate contracts for ERC-72
 ## What the user do with the points(SOUL) ?
 1. Nothing
 
-Note:
+NOTE:
 We are using a mapping to keep track of the REFERRER and REFERREE.
 mapping(referreeAddress => referrerAddress) public referredBy // user => referrer [key => value]
 So referree cant be repeated and there can be multiple referrer in the mapping.
